@@ -33,26 +33,31 @@ compile 'com.github.Harlan1994:Progress:v1.0.0'
 #### Example
 There 7 custom attrs can be used whitch can be seen in values. In your xml files, use the following attributes.
 
-##### Like this:
+##### Like this to create a Horizontal styled progressbar:
 ~~~~
 <com.harlan.progressbar.LineProgressBar
-        android:id="@+id/line1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:progress="0"
-        android:max="100"
-         harlan:textSize="14sp"
+        ...
+        harlan:textSize="14sp"
         harlan:reachColor="#0ff"
         harlan:unreachColor="#0b0"
         harlan:reachHeight="5dp"
         harlan:unreachHeight="3dp"
         harlan:textColor="@color/colorAccent"
         harlan:textOffset="10dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="30dp"/>
+        .../>
 ~~~~
 
+##### Or like this to create a Circular styled progressbar:
+~~~~
+<com.harlan.progressbar.CircleProgressBar
+	...
+        harlan:radius="45dp"
+        harlan:reachHeight="6dp"
+        harlan:unreachHeight="4dp"
+        harlan:textColor="#0ff"
+        harlan:textSize="15sp"
+        .../>
+~~~~
 #### In your Activities, just use setProgress(int) method to change its progress.
 
 ##### Like this:
@@ -67,15 +72,11 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
+        ...
         lineProgressBar1 = (LineProgressBar) findViewById(R.id.line1);
         lineProgressBar2 = (LineProgressBar) findViewById(R.id.line2);
-
         circleProgressBar1 = (CircleProgressBar) findViewById(R.id.circle1);
         circleProgressBar2 = (CircleProgressBar) findViewById(R.id.circle2);
-
         mHandler.sendEmptyMessageDelayed(1, 200);
     }
 
