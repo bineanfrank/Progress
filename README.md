@@ -20,14 +20,7 @@ compile 'com.github.Harlan1994:Progress:v1.0.0'
 ### Usage
 
 #### Example
-In your xml files, use the following attributes:
-  harlan:textSize="14sp"
-  harlan:reachColor="#0ff"
-  harlan:unreachColor="#0b0"
-  harlan:reachHeight="5dp"
-  harlan:unreachHeight="3dp"
-  harlan:textColor="@color/colorAccent"
-  harlan:textOffset="10dp"
+There 7 custom attrs can be used whitch can be seen in values. In your xml files, use the following attributes.
 
 ##### Like this:
 ~~~~
@@ -37,11 +30,13 @@ In your xml files, use the following attributes:
         android:layout_height="wrap_content"
         android:progress="0"
         android:max="100"
-        harlan:textSize="14sp"
+         harlan:textSize="14sp"
         harlan:reachColor="#0ff"
         harlan:unreachColor="#0b0"
         harlan:reachHeight="5dp"
         harlan:unreachHeight="3dp"
+        harlan:textColor="@color/colorAccent"
+        harlan:textOffset="10dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="30dp"/>
@@ -86,6 +81,13 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 }
+
+#### See more details, you can download this and run by yourself.
+
+### Thanks
+
+##### http://www.imooc.com/
+##### [@GcsSloop](http://weibo.com/GcsSloop)
 ~~~~
 
 #### License
