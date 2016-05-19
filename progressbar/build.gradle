@@ -44,9 +44,9 @@ install {
                 }
                 developers {
                     developer {
-                        id 'Harlan1994'        //填写的一些基本信息
+                        id 'harlan1994'        //填写的一些基本信息
                         name 'Harlan'
-                        email '1041099438@qq.com'
+                        email 'harlan1994@yeah.net'
                     }
                 }
                 scm {
