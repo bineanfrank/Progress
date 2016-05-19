@@ -168,7 +168,7 @@ public class LineProgressBar extends ProgressBar {
      * Convert dp value to px value.
      *
      * @param value
-     * @return
+     * @return px value
      */
     protected int dp2px(int value) {
         return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, value, getResources().getDisplayMetrics());
@@ -178,7 +178,7 @@ public class LineProgressBar extends ProgressBar {
      * Convert sp value to px value.
      *
      * @param value
-     * @return
+     * @return px value
      */
     protected int sp2px(int value) {
         return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP, value, getResources().getDisplayMetrics());
