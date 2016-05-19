@@ -15,6 +15,8 @@
         harlan:unreachColor="#0b0"
         harlan:reachHeight="5dp"
         harlan:unreachHeight="3dp"
+        harlan:textColor="@color/colorAccent"
+        harlan:textOffset="10dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="30dp"/>
