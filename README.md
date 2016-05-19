@@ -10,7 +10,18 @@ This is a simple custom ProgressBar. Two classes are included, one is Horizontal
 
 ### Instalation:
 
-in your app build.gradle add
+##### Add it in your root build.gradle at the end of repositories:
+
+~~~~
+allprojects {
+   repositories {
+	...
+	maven { url "https://jitpack.io" }
+  }
+}
+~~~~
+
+##### in your app build.gradle add
 
 ~~~~
 compile 'com.github.Harlan1994:Progress:v1.0.0'
