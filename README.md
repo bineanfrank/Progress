@@ -81,13 +81,14 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 }
+~~~~
 
 #### See more details, you can download this and run by yourself.
 
 ### Thanks
-
-##### http://www.imooc.com/
-##### [@GcsSloop](http://weibo.com/GcsSloop)
+~~~~
+http://www.imooc.com/
+[@GcsSloop](http://weibo.com/GcsSloop)
 ~~~~
 
 #### License
