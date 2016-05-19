@@ -1,12 +1,12 @@
 # ProgressBar
 ### Author: Harlan1994
 ### E-mail: harlan1994@yeah.net
-### [JitPack Link](https://jitpack.io)
+### JitPack: [JitPack Link](https://jitpack.io)
 
 ## Descriptions
 This is a simple custom ProgressBar. Two classes are included, one is Horizontal styled and another is Circular styled.
 
-![alt text](https://raw.githubusercontent.com/AndreiD/TSnackBar/master/app/snackbar.gif "How the app looks 1")
+![alt text](https://github.com/Harlan1994/Progress/blob/master/gif/CustomProgressBar.gif "How it looks.")
 
 ### Instalation:
 
@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
 #### License
 
 ~~~~
-Copyright 2015 AndroidAdvance.com
+Copyright 2015 Harlan1994
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
